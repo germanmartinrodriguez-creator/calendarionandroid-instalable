@@ -1,0 +1,29 @@
+CALENDARIO BARCELONA - VERSION FINAL PARA REPOSITORIO NUEVO
+
+Archivos incluidos:
+- index.html
+- manifest.json
+- sw.js
+- icono.png
+- icons/icon-192.png
+- icons/icon-512.png
+
+Correcciones:
+- Los festivos oficiales SOLO muestran información y NO cambian a vacaciones.
+- Los días normales rotan: vacaciones -> festivo manual -> borrar.
+- Cabecera con icono recuperado.
+- Ver / imprimir abre la vista anual real, con estética clara tipo imagen 2.
+- PWA preparada con rutas relativas para que funcione en un repositorio nuevo de GitHub Pages.
+
+Instalación recomendada:
+1. Crear un repositorio nuevo, por ejemplo calendario-barcelona-final.
+2. Subir TODO el contenido de esta carpeta al repositorio.
+3. Activar GitHub Pages: Settings > Pages > Deploy from branch > main > /root.
+4. Abrir la URL nueva en Chrome Android.
+5. Esperar unos segundos y usar Menú > Instalar app.
+
+Si no aparece Instalar app:
+- No uses la URL vieja.
+- Borra iconos anteriores del calendario.
+- En Chrome borra datos del sitio antiguo.
+- Abre la URL nueva del repositorio nuevo.
